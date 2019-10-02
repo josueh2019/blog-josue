@@ -1,0 +1,348 @@
+/* reglas
+selectores
+declaraciones
+propiedades
+valores */
+
+/*selector de etiqueta  header-section-article*/
+/*header
+{
+    background: black;
+}*/
+
+/*selector descendente "osea los hijos"*/
+/*body header div nav ol li a*/
+
+/*selector de clase(class)*/
+
+/*.link */
+
+/*selector de id # */
+/* #portafolio */
+
+.header {
+    background-color: #212020;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 90px;
+}
+
+.header ol li
+{
+    height: inherit;
+    font-size: 20px;
+}
+
+.header ol
+{
+    display: flex;
+    height: inherit;
+}
+
+.header a {
+    color: white;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    height: inherit;
+    padding: 0 15px;
+}
+
+.portada {
+    height: 300px;
+    /*background-image: url('../images/Imagen\ de\ iOS.jpg');*/
+   /* background-size: 500px 450px;
+    background-repeat: no-repeat;
+    background-position-x: right;*/
+    background-color: #212020;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Fjalla One', sans-serif;
+    font-weight: normal;
+}
+
+h1 strong {
+    color: #026fff;
+}
+
+h1 {
+    font-size: 40px;
+    line-height: 1.5;
+    letter-spacing: -.2px;
+    color: white;
+    padding: 10px;
+    margin: 0px;
+}
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0px;
+}
+
+.project {
+    border: 2px solid gray;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 15px;
+    background: #fff;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.project strong 
+{
+    font-family: 'Fjalla One', sans-serif;
+}
+
+.subtitle-project1
+{
+    font-size: 30px;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.subtitle-project2
+{
+    margin: 10px 0;
+}
+
+.date-project
+{
+    margin: 10px 0;
+}
+
+.link-project
+{
+    margin: 10px 0;
+}
+
+.text-project
+{
+    font-size: 20px;
+}
+
+.details-project {
+    width: 600px;
+}
+
+.image-projectContainer {
+    width: 400px;
+}
+
+
+.portfolio {
+    background: #fafafa;
+    padding: 20px;
+}
+
+.experiencia {
+    background: #fafafa;
+    padding: 20px;
+}
+
+.image-experienceContainer {
+    width: 500px;
+}
+
+.title-experience {
+    width: 500px;
+}
+
+/*align-items: center;
+flex-direction: column;
+justify-content: center;
+para centrar para centrar los elementos vertical y horizontal*/
+
+ol,ul
+{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+figure
+{
+    margin: 0;
+}
+
+.menu
+{
+    height: inherit;
+}
+
+.footer
+{
+    background-color: #212020;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 110px;
+    font-size: 25px;
+    padding: 10px;
+}
+
+.footer img 
+{
+    vertical-align: middle;
+}
+
+.footer a
+{
+    color: white;
+}
+
+h2
+{
+    color: #026fff;
+    text-transform: uppercase;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+
+.experience 
+{
+    margin: 10px;
+    width: 480px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    overflow: hidden;
+    background: #bfbbbc;
+}
+
+.experiencia-lista
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.experience img
+{
+    width: 480px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.details-experience
+{
+    margin: 20px 40px;
+    background-color: #fff;
+    position: relative;
+    margin-top: -40px;
+    padding: 20px;
+    text-align: center;
+
+}
+
+.description-experience
+{
+    text-align: left;
+}
+
+.url-experience
+{
+    border: 1px solid #026fff;
+    padding: 5px 20px;
+    text-decoration: none;
+    color: #026fff;
+    border-radius: 5px;
+}
+
+.title-list
+{
+    margin-left: 20px;
+}
+
+.contact
+{
+    background-color:  #026fff;
+    color: #000;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.social-link
+{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    margin: 0 10px;
+    background-size: 50px 50px;
+}
+
+.social-link.instagram
+{
+    background-image: url('../images/instagram.png')
+}
+
+.social-link.facebook
+{
+    background-image: url('../images/facebook.png')
+}
+
+.social-link.github
+{
+    background-image: url('../images/github.png')
+}
+
+.social-link.youtube
+{
+    background-image: url('../images/youtube.png')
+}
+
+.form-email input
+{
+    border-color: gray;
+    padding: 10px 20px 10px 25px;
+    background-image: url('../images/envelope.png');
+    background-repeat: no-repeat;
+    background-size: 17px 17px;
+    background-position-y: center;
+    background-position-x: 5px;
+    border-radius: 5px;
+    border-style: solid;
+}
+
+.form-email button
+{
+    display: block;
+    margin-top: 10px;
+    background: #000;
+    color: #fff;
+    border-radius: 5px;
+    width: 100px;
+    padding: 7px 0;
+}
+
+.form-email h3
+{
+    font-family: 'Source Sans Pro',sans-serif;
+}
+
+.container
+{
+    width: 1000px;
+    margin: 0 auto;
+    display: inherit;
+    justify-content: inherit;
+    align-items: inherit;
+    height: inherit;
+    flex-wrap: inherit;
+}
